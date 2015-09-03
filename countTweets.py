@@ -21,8 +21,7 @@ def setup():
                                                                  
 def puter():                                                     
         print "muter"                                            
-        for i in range(100):                                     
-                print i                                          
+        for i in range(10):                                     
                 gpio.digitalWrite(pin4, gpio.LOW)                
                 gpio.digitalWrite(pin2, gpio.HIGH)               
                 time.sleep(0.01)                  
